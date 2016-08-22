@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.jdom2.*;
@@ -48,17 +50,6 @@ public class XMLEditor {
 		Element root = new Element("Setting");
 		xmlDocument = new Document(root);	//设置根节点
 		saveXML();
-	}
-
-	//判断指定为路径下的指定文件是否存在
-	public boolean fileExists(){
-		File file = new File(filepath);
-		if(file.exists()){
-			lggr.debug(String.format("file %s exists.", filepath));
-			return true;
-		}
-		lggr.debug(String.format("file %s does not  exists.", filepath));
-		return false;
 	}
 	
 	//获取管理xml文件的根元素
@@ -120,7 +111,95 @@ public class XMLEditor {
 		return false;
 	}
 	
-	public void saveXML(){
+	//交换两个元素的位置,通过元素的位置确定
+	public void switchElementByText(String path, int index1, int index2){
+		
+		Element parent = getElement(path);
+		Element child1,child2;	//需要交换的两个子节点
+		lggr.debug(String.format("将在节点%s下，交换元素", parent.getName()));
+		List<Element> elements = parent.getChildren();
+		List<Element> elementsNew = new ArrayList<Element>();
+		int size = elements.size();
+		for (int i = 0; i < size; i++) {
+			elementsNew.add(elements.get(0));
+			elements.remove(0);
+		}
+
+		child1 = elementsNew.get(index1);
+		child2 = elementsNew.get(index2);
+		elementsNew.set(index1, child2);
+		elementsNew.set(index2, child1);
+		parent.addContent(elementsNew);
+
+		saveXML();
+		
+	}
+	
+	//在指定位置插入指定元素
+	public void insertElement(String path, int index, Element e){
+		
+		Element parent = getElement(path);
+		lggr.info(String.format("将在元素 %s 下的第 %d 个位置插入新元素 %s。", 
+				parent.getName(), index, e.getName()));
+		List<Element> elements = parent.getChildren();
+		List<Element> elementsNew = new ArrayList<Element>();
+		int size = elements.size();
+		for (int i = 0; i < size; i++) {
+			elementsNew.add(elements.get(0));
+			elements.remove(0);
+		}
+		elementsNew.add(index, e);
+		parent.addContent(elementsNew);
+		saveXML();
+
+	}
+	
+	//编辑制定xml的内容
+	public void replaceEmelement(String path, int pos, Element newElement){
+		
+		Element parent = getElement(path);
+		lggr.debug(String.format("将要把第 %d 位置的元素替换为元素 %s", 
+				pos, newElement.getName()));
+		List<Element> elements = parent.getChildren();
+		List<Element> elementsNew = new ArrayList<Element>();
+		int size = elements.size();
+		for (int i = 0; i < size; i++) {
+			elementsNew.add(elements.get(0));
+			elements.remove(0);
+		}
+		elementsNew.set(pos, newElement);
+		parent.addContent(elementsNew);
+		saveXML();
+
+	}
+	
+	public void clearElement(String path){
+		Element parent = getElement(path);
+		lggr.debug("将删除路径 %s 下的所有元素。");
+		List<Element> elements = parent.getChildren();
+		int size = elements.size();
+		for (int i = 0; i < size; i++) {
+			elements.remove(0);
+		}
+		saveXML();
+	}
+	
+	/******************************************************/
+	/********************内部private方法*********************/
+	/******************************************************/
+	//判断指定为路径下的指定文件是否存在
+	private boolean fileExists(){
+		File file = new File(filepath);
+		if(file.exists()){
+			lggr.debug(String.format("file %s exists.", filepath));
+			return true;
+		}
+		lggr.debug(String.format("file %s does not  exists.", filepath));
+		return false;
+	}
+	
+	//储存xml文件
+	private void saveXML(){
 		Format format = Format.getCompactFormat();
 		format.setEncoding("UTF-8");	//设置字符编码
 		format.setIndent("    ");		//设置换行和缩进
@@ -137,5 +216,19 @@ public class XMLEditor {
 			e.printStackTrace();
 		}
 		lggr.info("创建/修改文件完成。");
+	}
+	Element getElement(String path){
+		String[] str = path.split("-");
+		Element element = getRootElement();
+		for(int i = 1 ; i < str.length ; i++){
+			Element el = element.getChild(str[i]);
+			if (null != el) {
+				element = el;
+			} else {
+				lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
+				return null;
+			}
+		}
+		return element;
 	}
 }

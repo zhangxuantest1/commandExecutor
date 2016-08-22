@@ -1,0 +1,649 @@
+[INFO ][2016/08/22 22:50:05395][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/08/22 22:50:05401][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [DEBUG][2016/08/22 22:50:05452][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:17)]
+初始化主窗口配置
+ [INFO ][2016/08/22 22:50:05512][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/08/22 22:50:05512][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:45)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/08/22 22:50:05546][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:104)]
+为WestPanel的基础配置布局
+ [INFO ][2016/08/22 22:50:05576][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:107)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/08/22 22:50:05577][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:80)]
+为WestPanel的动态配置布局
+ [INFO ][2016/08/22 22:50:05577][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:83)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/08/22 22:50:05577][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:99)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/08/22 22:50:05579][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:28)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/08/22 22:50:05607][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:48)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/08/22 22:50:05607][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:54)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/08/22 22:50:05608][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:19)]
+开始创建South部分的Panel
+ [INFO ][2016/08/22 22:50:05642][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:33)]
+完成South部分的Panel
+ [INFO ][2016/08/22 22:50:05643][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:57)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/08/22 22:50:05644][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:37)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/08/22 22:50:05645][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:27)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/08/22 22:50:05647][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:40)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/08/22 22:50:05651][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:43)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/08/22 22:50:05653][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:46)]
+命令框East部分的bound为(100.000000,320.000000)
+ [DEBUG][2016/08/22 22:50:05654][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:49)]
+命令框South部分的bound为(400.000000,80.000000)
+ [INFO ][2016/08/22 22:50:05656][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:61)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/08/22 22:50:05657][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:40)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/08/22 22:50:05657][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:19)]
+主界面创建成功
+ [INFO ][2016/08/22 22:50:05657][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+--------------------------------------------------
+ [DEBUG][2016/08/22 23:08:20860][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:137)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:08:20865][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:31)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:08:20916][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:42)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:08:20918][com.netease.B6646_zx_Function.XMLEditor.switchElement(XMLEditor.java:125)]
+将在节点Svc下，交换元素
+ [DEBUG][2016/08/22 23:09:11294][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:137)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:09:11300][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:31)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:09:11346][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:42)]
+成功加载xml文件
+ [INFO ][2016/08/22 23:09:11347][com.netease.B6646_zx_Function.XMLEditor.switchElement(XMLEditor.java:125)]
+将在节点Svc下，交换元素
+ [DEBUG][2016/08/22 23:13:00610][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:128)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:13:00615][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:13:00659][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:13:00661][com.netease.B6646_zx_Function.XMLEditor.switchElement(XMLEditor.java:116)]
+将在节点Svc下，交换元素
+ [DEBUG][2016/08/22 23:23:47687][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:134)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:23:47694][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:23:47757][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:23:47758][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Svc下，交换元素
+ [DEBUG][2016/08/22 23:24:08564][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:134)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:24:08567][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:24:08616][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:24:08618][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Svc下，交换元素
+ [DEBUG][2016/08/22 23:24:41453][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:134)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:24:41457][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:24:41503][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:24:41509][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:25:00186][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:134)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:25:00190][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:25:00235][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:25:00241][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:26:15241][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:137)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:26:15246][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:26:15305][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:26:15312][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:26:15312][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+1111
+ [DEBUG][2016/08/22 23:27:10172][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:137)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:27:10176][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:27:10220][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:27:10226][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:27:10226][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+1111
+ [DEBUG][2016/08/22 23:29:13394][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:137)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:29:13398][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:29:13444][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:29:13450][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:29:13451][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+1111
+ [ERROR][2016/08/22 23:29:13452][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:122)]
+22
+ [DEBUG][2016/08/22 23:35:25396][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:142)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:35:25400][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:35:25444][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:35:25450][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:35:51617][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:143)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:35:51622][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:35:51667][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:35:51674][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:35:51674][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:119)]
+3
+ [DEBUG][2016/08/22 23:36:10900][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:143)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:36:10905][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:36:10952][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:36:10959][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:36:10959][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:127)]
+1
+ [DEBUG][2016/08/22 23:40:42224][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:137)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:40:42228][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:40:42271][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:40:42277][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:41:52102][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:137)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:41:52107][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:41:52150][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:41:52158][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:42:50233][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:136)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:42:50237][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:42:50283][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:42:50289][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:117)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:50:35273][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:142)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:50:35277][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:50:35328][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:50:35334][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:50:59459][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:141)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:50:59463][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:50:59507][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:50:59515][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:51:1234 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:141)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:51:1238 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:51:1286 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:51:1293 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:51:17958][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:141)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:51:17962][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:51:189  ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:51:1817 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:51:23153][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:141)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:51:23157][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:51:23204][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:51:23210][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:51:32425][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:141)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:51:32428][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:32)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:51:32473][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:43)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:51:32479][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:120)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:54:33551][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:145)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:54:33554][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:54:33599][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:54:33605][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:54:33606][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:128)]
+2
+ [ERROR][2016/08/22 23:54:33607][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:129)]
+2
+ [DEBUG][2016/08/22 23:55:01980][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:146)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:55:01984][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:55:0227 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:55:0234 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:55:0234 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:129)]
+0
+ [ERROR][2016/08/22 23:55:0234 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:130)]
+4
+ [DEBUG][2016/08/22 23:56:1929 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:56:1932 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:56:1975 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:56:1980 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:56:1981 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:129)]
+0
+ [ERROR][2016/08/22 23:56:1982 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:130)]
+4
+ [DEBUG][2016/08/22 23:56:41304][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:151)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:56:41308][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:56:41352][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:56:41359][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [ERROR][2016/08/22 23:56:41360][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:129)]
+0
+ [ERROR][2016/08/22 23:56:41360][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:130)]
+4
+ [ERROR][2016/08/22 23:56:41361][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:133)]
+4
+ [DEBUG][2016/08/22 23:57:46480][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:57:46485][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:57:46528][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:57:46535][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:58:1229 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:58:1233 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:58:1277 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:58:1284 ][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [DEBUG][2016/08/22 23:58:28921][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:58:28925][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:58:28970][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:58:28976][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [INFO ][2016/08/22 23:58:28994][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:174)]
+创建/修改文件完成。
+ [DEBUG][2016/08/22 23:58:40250][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:58:40254][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:58:40298][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:58:40304][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [INFO ][2016/08/22 23:58:40324][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:174)]
+创建/修改文件完成。
+ [DEBUG][2016/08/22 23:59:09903][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:59:09908][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:09956][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:59:09958][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\a.xml exists.
+ [INFO ][2016/08/22 23:59:09959][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:09960][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:59:09962][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:59:09962][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:09965][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:59:09976][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:59:09976][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:09978][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:59:09980][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:59:09980][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:09984][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:59:09985][com.netease.B6646_zx_Function.XMLEditor.removeElement(XMLEditor.java:90)]
+要删除的元素路径为 Svc-Git-haha-command 。
+ [DEBUG][2016/08/22 23:59:09988][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:59:09988][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:09990][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:59:09991][com.netease.B6646_zx_Function.XMLEditor.switchElementByText(XMLEditor.java:121)]
+将在节点Git下，交换元素
+ [INFO ][2016/08/22 23:59:1010 ][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:174)]
+创建/修改文件完成。
+ [DEBUG][2016/08/22 23:59:1011 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:59:1011 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:1012 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:59:1013 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:59:1013 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:1014 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/22 23:59:1015 ][com.netease.B6646_zx_Function.XMLEditor.addElelemt(XMLEditor.java:64)]
+Svc-Git-哈哈
+ [DEBUG][2016/08/22 23:59:1016 ][com.netease.B6646_zx_Function.XMLEditor.addElelemt(XMLEditor.java:65)]
+路径长度为3。
+ [ERROR][2016/08/22 23:59:1016 ][com.netease.B6646_zx_Function.XMLEditor.addElelemt(XMLEditor.java:79)]
+元素 哈哈 不存在。
+ [DEBUG][2016/08/22 23:59:19790][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/22 23:59:19794][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/22 23:59:19838][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:00:23614][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:00:23618][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:00:23664][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:00:3240 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:00:3244 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:00:3287 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:00:49931][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:00:49935][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:00:49980][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:00:49982][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/08/23 00:00:49982][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:00:49992][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:01:06457][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:01:06461][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:01:06505][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:01:06507][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/08/23 00:01:06508][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:01:06518][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:01:16447][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:01:16452][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:01:16495][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:01:16497][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/08/23 00:01:16498][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:01:16508][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:01:22265][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:01:22270][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:01:22315][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:01:22317][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:150)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/08/23 00:01:22317][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:01:22328][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [INFO ][2016/08/23 00:01:31447][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/08/23 00:01:31451][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [DEBUG][2016/08/23 00:01:31498][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:17)]
+初始化主窗口配置
+ [INFO ][2016/08/23 00:01:31552][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/08/23 00:01:31553][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:45)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/08/23 00:01:31583][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:104)]
+为WestPanel的基础配置布局
+ [INFO ][2016/08/23 00:01:31611][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:107)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/08/23 00:01:31611][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:80)]
+为WestPanel的动态配置布局
+ [INFO ][2016/08/23 00:01:31611][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:83)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/08/23 00:01:31612][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:99)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/08/23 00:01:31613][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:28)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/08/23 00:01:31637][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:48)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/08/23 00:01:31637][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:54)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/08/23 00:01:31638][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:19)]
+开始创建South部分的Panel
+ [INFO ][2016/08/23 00:01:31665][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:33)]
+完成South部分的Panel
+ [INFO ][2016/08/23 00:01:31665][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:57)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/08/23 00:01:31666][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:37)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/08/23 00:01:31668][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:27)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/08/23 00:01:31672][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:40)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/08/23 00:01:31674][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:43)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/08/23 00:01:31676][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:46)]
+命令框East部分的bound为(100.000000,320.000000)
+ [DEBUG][2016/08/23 00:01:31677][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:49)]
+命令框South部分的bound为(400.000000,80.000000)
+ [INFO ][2016/08/23 00:01:31679][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:61)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/08/23 00:01:31680][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:40)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/08/23 00:01:31680][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:19)]
+主界面创建成功
+ [INFO ][2016/08/23 00:01:31681][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+--------------------------------------------------
+ [DEBUG][2016/08/23 00:07:29418][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:156)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:07:29423][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:07:29465][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:07:29467][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:156)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/08/23 00:07:29468][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:07:29478][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:07:38859][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:156)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:07:38863][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:07:38907][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:07:38913][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [DEBUG][2016/08/23 00:07:57576][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:156)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:07:57580][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:07:57623][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:07:57631][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [DEBUG][2016/08/23 00:08:36707][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:156)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:08:36710][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:08:36754][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [INFO ][2016/08/23 00:08:36760][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [DEBUG][2016/08/23 00:10:11692][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:164)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:10:11696][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:10:11739][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [INFO ][2016/08/23 00:10:11745][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [INFO ][2016/08/23 00:10:11768][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:188)]
+创建/修改文件完成。
+ [DEBUG][2016/08/23 00:11:35872][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:165)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:11:35876][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:11:35918][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [INFO ][2016/08/23 00:11:35924][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [DEBUG][2016/08/23 00:11:57973][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:165)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:11:57976][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:11:5818 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [INFO ][2016/08/23 00:11:5824 ][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [DEBUG][2016/08/23 00:12:11745][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:165)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:12:11750][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:12:11791][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [INFO ][2016/08/23 00:12:11797][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [INFO ][2016/08/23 00:12:11821][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:189)]
+创建/修改文件完成。
+ [DEBUG][2016/08/23 00:13:37230][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:165)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:13:37235][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:13:37276][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [INFO ][2016/08/23 00:13:37283][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [INFO ][2016/08/23 00:13:37304][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:189)]
+创建/修改文件完成。
+ [DEBUG][2016/08/23 00:14:49245][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:165)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:14:49251][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:14:49294][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [INFO ][2016/08/23 00:14:49301][com.netease.B6646_zx_Function.XMLEditor.insertElement(XMLEditor.java:143)]
+将在元素 Git 下的第 2 个位置插入新元素 aaa。
+ [INFO ][2016/08/23 00:14:49323][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:189)]
+创建/修改文件完成。
+ [DEBUG][2016/08/23 00:21:55951][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:184)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:21:55956][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:21:561  ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:22:15158][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:184)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:22:15162][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:22:15205][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:22:15211][com.netease.B6646_zx_Function.XMLEditor.replaceEmelement(XMLEditor.java:162)]
+将要把第 2 位置的元素替换为元素 a1111
+ [INFO ][2016/08/23 00:22:15233][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:208)]
+创建/修改文件完成。
+ [DEBUG][2016/08/23 00:27:31496][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:194)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:27:31500][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:27:31542][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [ERROR][2016/08/23 00:27:31549][com.netease.B6646_zx_Function.XMLEditor.getElement(XMLEditor.java:228)]
+节点 a111 不存在，请确认。
+ [DEBUG][2016/08/23 00:27:31549][com.netease.B6646_zx_Function.XMLEditor.clearElement(XMLEditor.java:178)]
+将删除路径 %s 下的所有元素。
+ [DEBUG][2016/08/23 00:28:1042 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:194)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:28:1046 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:28:1089 ][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:28:1096 ][com.netease.B6646_zx_Function.XMLEditor.clearElement(XMLEditor.java:178)]
+将删除路径 %s 下的所有元素。
+ [INFO ][2016/08/23 00:28:10116][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:218)]
+创建/修改文件完成。
+ [DEBUG][2016/08/23 00:29:38271][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:194)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/08/23 00:29:38278][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:33)]
+xml文件已存在，无需重新创建
+ [INFO ][2016/08/23 00:29:38350][com.netease.B6646_zx_Function.XMLEditor.<init>(XMLEditor.java:44)]
+成功加载xml文件
+ [DEBUG][2016/08/23 00:29:38360][com.netease.B6646_zx_Function.XMLEditor.clearElement(XMLEditor.java:178)]
+将删除路径 %s 下的所有元素。
+ [INFO ][2016/08/23 00:29:38393][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:218)]
+创建/修改文件完成。
+ [DEBUG][2016/08/23 00:29:38394][com.netease.B6646_zx_Function.XMLEditor.addElelemt(XMLEditor.java:64)]
+Svc-Git-a1111
+ [DEBUG][2016/08/23 00:29:38394][com.netease.B6646_zx_Function.XMLEditor.addElelemt(XMLEditor.java:65)]
+路径长度为3。
+ [INFO ][2016/08/23 00:29:38396][com.netease.B6646_zx_Function.XMLEditor.saveXML(XMLEditor.java:218)]
+创建/修改文件完成。
+ 

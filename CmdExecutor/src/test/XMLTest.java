@@ -6,7 +6,7 @@ import org.junit.Test;
 import com.netease.B6646_zx_Function.*;
 
 public class XMLTest {
-
+	XMLEditor editor = new XMLEditor("D:\\temp\\Svc.xml");
 	//测试构造方法
 	@Test
 	public void testConstructor() {
@@ -37,18 +37,47 @@ public class XMLTest {
 	
 	@Test
 	public void testRemoveElement() {
-		XMLEditor editor = new XMLEditor("D:\\temp\\Svc.xml");
 		editor.removeElement("Svc-Git-haha-command");
 	}
 	
+	@Test
+	public void testSwitchElement(){
+		editor.switchElementByText("Svc-Git", 0, 1);
+	}
 	
+	@Test
+	public void testInsertElement(){
+		Element e = new Element("aaa");
+		e.addContent(new Element("bb"));
+		e.addContent(new Element("c"));
+		editor.insertElement("Svc-Git",2,e);
+	}
+	
+	@Test
+	public void testReplace(){
+		Element e = new Element("a1111");
+		e.addContent(new Element("b22"));
+		e.addContent(new Element("c3"));
+		editor.replaceEmelement("Svc-Git", 2, e);
+	}
+	
+	@Test
+	public void testClear(){
+		editor.clearElement("Svc-Git-a1111");
+		editor.addElelemt("Svc-Git-a1111", new Element("aabbcc"));
+	}
+	
+	/****************************/
+	/**********private***********/
+	/****************************/
 	private void testGitMethod() {
 		// TODO Auto-generated method stub
 		XMLEditor editor = new XMLEditor("D:\\temp\\Config.xml");
+		
 		Element git = editor.getRootElement().getChild("Function").getChild("git");
 		String path = git.getChildText("filePath");
 		System.out.println(String.format("Config.xml的路径为： %s..", path));
-		
+		System.out.println(11111);
 		Element mappping = git.getChild("mapping");
 		List<Element> list = mappping.getChildren("Method");
 		System.out.println(String.format("总共有%d个方法", list.size()));
