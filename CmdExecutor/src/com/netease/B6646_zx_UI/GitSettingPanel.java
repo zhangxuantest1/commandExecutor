@@ -13,6 +13,14 @@ public class GitSettingPanel extends JPanel {
 	private JTextField txtRemoteURL;	//Ô¶¶ËURL
 	private JButton addButton;
 	private JButton editButton;
+	private static GitSettingPanel staticPanel;
+	
+	public static GitSettingPanel createInstance(){
+		if (null == staticPanel) {
+			staticPanel = new GitSettingPanel();
+		}
+		return staticPanel;
+	}
 
 	public GitSettingPanel(){
 		GridLayout layout = new GridLayout(3,2);

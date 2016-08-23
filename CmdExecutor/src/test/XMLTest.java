@@ -7,6 +7,7 @@ import com.netease.B6646_zx_Function.*;
 
 public class XMLTest {
 	XMLEditor editor = new XMLEditor("D:\\temp\\Svc.xml");
+	XMLEditor editor1 = new XMLEditor("D:\\temp\\Config.xml");
 	//测试构造方法
 	@Test
 	public void testConstructor() {
@@ -65,6 +66,27 @@ public class XMLTest {
 	public void testClear(){
 		editor.clearElement("Svc-Git-a1111");
 		editor.addElelemt("Svc-Git-a1111", new Element("aabbcc"));
+	}
+	
+	@Test
+	public void testGetName(){
+		editor.getName("Svc-Git", 3);
+	}
+	
+	@Test 
+	public void testGetAll(){
+		List<Element> e = editor1.getAllElements("Config-UI");
+		for (int i = 0; i < e.size(); i++) {
+			System.out.println(e.get(i).getName().trim());
+		}
+	}
+	
+	@Test 
+	public void testGetByName(){
+		List<Element> e = editor1.getElementsByName("Config-UI", "Git");
+		for (int i = 0; i < e.size(); i++) {
+			System.out.println(e.get(i).getName().trim());
+		}
 	}
 	
 	/****************************/

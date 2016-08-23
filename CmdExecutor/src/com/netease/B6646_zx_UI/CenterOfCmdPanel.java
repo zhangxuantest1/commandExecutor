@@ -13,6 +13,15 @@ public class CenterOfCmdPanel extends JPanel {
 	private JScrollPane listPane;
 	private JLabel label;
 	private String[] arr ;
+	private static CenterOfCmdPanel staticPanel;
+	
+	public static CenterOfCmdPanel createInstance(){
+		if(null == staticPanel){
+			staticPanel = new CenterOfCmdPanel();
+		}
+		return staticPanel;
+	}
+	
 	public CenterOfCmdPanel(){
 		setLayout(new BorderLayout(5,5));
 		label = new JLabel("√¸¡Ó¡–±Ì£∫");

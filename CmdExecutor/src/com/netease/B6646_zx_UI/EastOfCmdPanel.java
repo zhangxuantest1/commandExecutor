@@ -18,6 +18,14 @@ public class EastOfCmdPanel extends JPanel {
 	private JButton moveDownButton;
 	private JButton execAllButton;
 	private JButton execSelectedButton;
+	private static EastOfCmdPanel staticPanel;
+	
+	public static EastOfCmdPanel createInstance(Dimension bound){
+		if (null == staticPanel) {
+			staticPanel  = new EastOfCmdPanel(bound);
+		}
+		return staticPanel;
+	}
 	
 	public EastOfCmdPanel(Dimension dimension){
 		setPreferredSize(dimension);

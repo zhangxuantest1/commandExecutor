@@ -15,7 +15,8 @@ public class ShowFrame {
 				// TODO Auto-generated method stub
 				lggr.info("--------------------------------------------------");
 				lggr.info("创建并显示主界面");
-				new JMainFrame();
+				//new JMainFrame();
+				JMainFrame.createInstance();
 				lggr.info("主界面创建成功");
 				lggr.info("--------------------------------------------------");
 			}

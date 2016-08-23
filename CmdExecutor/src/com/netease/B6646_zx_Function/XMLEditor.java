@@ -24,40 +24,29 @@ public class XMLEditor {
 	//若指定xml文件已存在，则直接加载
 	//若指定xml文件不存在，则创建根节点为Setting的xml文件
 	public XMLEditor(String path){
-		filepath = path;
-		lggr = Logger.getLogger(XMLEditor.class.getName());
-		if(!fileExists()){		//xml文件不存在，则创建文件
-			lggr.info("xml文件不存在，重新创建");
-			createNewXMLFile();	//创建并初始化xml文件
-		} else {
-			lggr.info("xml文件已存在，无需重新创建");
-		}
-		xmlFile = new File(filepath);
-		xmlSaxBuilder = new SAXBuilder();
-		try {
-			xmlDocument = xmlSaxBuilder.build(xmlFile);
-		} catch (JDOMException | IOException e) {
-			// TODO Auto-generated catch block
-			lggr.error("加载xml文件失败。。。");
-			e.printStackTrace();
-		}
-		lggr.info("成功加载xml文件");
+		loadXml(path);
 	}
-	 
-	//在指定目录下创建xml文件
-	private void createNewXMLFile() {
-		// TODO Auto-generated method stub
-		Element root = new Element("Setting");
-		xmlDocument = new Document(root);	//设置根节点
-		saveXML();
+
+	//更换xml文件的目录
+	public void changeXmlFile(String path){
+		loadXml(path);
 	}
-	
 	//获取管理xml文件的根元素
 	public Element getRootElement(){
 		return xmlDocument.getRootElement();
 	}
 	
-	//在指定位置添加制定元素
+	//获取xml文件的document对象
+	public Document getDocument(){
+		return xmlDocument;
+	}
+	
+	//获取xml文件的file对象
+	public File getFile(){
+		return xmlFile;
+	}
+	
+	//在指定路径下添加指定元素，在最后位置
 	public boolean addElelemt(String path, Element e) {
 		String[] str = path.split("-");
 		int size = str.length;
@@ -173,6 +162,7 @@ public class XMLEditor {
 
 	}
 	
+	//清空节点下的所有元素
 	public void clearElement(String path){
 		Element parent = getElement(path);
 		lggr.debug("将删除路径 %s 下的所有元素。");
@@ -187,6 +177,29 @@ public class XMLEditor {
 	/******************************************************/
 	/********************内部private方法*********************/
 	/******************************************************/
+	//加载指定路径下的xml文件
+	private void loadXml(String path) {
+		// TODO Auto-generated method stub
+		filepath = path;
+		lggr = Logger.getLogger(XMLEditor.class.getName());
+		if(!fileExists()){		//xml文件不存在，则创建文件
+			lggr.info("xml文件不存在，创建一个根节点为\"Setting\"的新文件。");
+			createNewXMLFile();	//创建并初始化xml文件
+		} else {
+			lggr.info("xml文件已存在，无需重新创建。");
+		}
+		xmlFile = new File(filepath);
+		xmlSaxBuilder = new SAXBuilder();
+		try {
+			xmlDocument = xmlSaxBuilder.build(xmlFile);
+		} catch (JDOMException | IOException e) {
+			// TODO Auto-generated catch block
+			lggr.error("加载xml文件失败。。。");
+			e.printStackTrace();
+		}
+		lggr.info("成功加载xml文件");
+	}
+	
 	//判断指定为路径下的指定文件是否存在
 	private boolean fileExists(){
 		File file = new File(filepath);
@@ -196,6 +209,19 @@ public class XMLEditor {
 		}
 		lggr.debug(String.format("file %s does not  exists.", filepath));
 		return false;
+	}
+	
+	//获取指定目录下的第index个元素的Name
+	public String getName(String path, int index){
+		
+		Element parent = getElement(path);
+		lggr.debug(String.format("即将获取路径 %s 下的第 %d 个元素的名字(从0算起)。", 
+				parent.getName(),index));
+		List<Element> elements = parent.getChildren();
+		Element element = elements.get(index);
+		lggr.debug(String.format("元素的名字为 %s", element.getName()));
+		return element.getName();
+		
 	}
 	
 	//储存xml文件
@@ -217,6 +243,7 @@ public class XMLEditor {
 		}
 		lggr.info("创建/修改文件完成。");
 	}
+	//获取指定路径下的第一个元素
 	Element getElement(String path){
 		String[] str = path.split("-");
 		Element element = getRootElement();
@@ -230,5 +257,48 @@ public class XMLEditor {
 			}
 		}
 		return element;
+	}
+	
+	//获取指定路径下的所有元素，需要保证路径仅有一条
+	public List<Element> getAllElements(String parentPath){
+		String[] str = parentPath.split("-");
+		Element element = getRootElement();
+		for(int i = 1 ; i < str.length ; i++){
+			Element el = element.getChild(str[i]);
+			if (null != el) {
+				element = el;
+			} else {
+				lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
+				return null;
+			}
+		}
+		List<Element> list = element.getChildren();
+		return list;
+	}
+	
+	//获取指定路径下的制定名字的元素，需要保证路径仅有一条
+	public List<Element> getElementsByName(String parentPath,String name){
+		String[] str = parentPath.split("-");
+		Element element = getRootElement();
+		for(int i = 1 ; i < str.length ; i++){
+			Element el = element.getChild(str[i]);
+			if (null != el) {
+				element = el;
+			} else {
+				lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
+				return null;
+			}
+		}
+		List<Element> list = element.getChildren(name);
+		return list;
+	}
+	
+	
+	//在指定目录下创建xml文件
+	private void createNewXMLFile() {
+		// TODO Auto-generated method stub
+		Element root = new Element("Setting");
+		xmlDocument = new Document(root);	//设置根节点
+		saveXML();
 	}
 }

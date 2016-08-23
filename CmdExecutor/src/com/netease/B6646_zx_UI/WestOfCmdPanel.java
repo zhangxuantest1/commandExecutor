@@ -18,6 +18,15 @@ public class WestOfCmdPanel extends JPanel {
 	private PanelBtn panelBtn;
 	private String[] funcArr ;
 	
+	private static WestOfCmdPanel staticPanel;
+	
+	public static WestOfCmdPanel createInstance(Dimension bound){
+		if (null == staticPanel) {
+			staticPanel = new WestOfCmdPanel(bound);
+		}
+		return staticPanel;
+	}
+	
 	public WestOfCmdPanel(Dimension dimension){
 		descLabel = new JLabel("ÇëÑ¡Ôñ¹¦ÄÜ£º");
 		funcArr = getFunctionsFromXml();

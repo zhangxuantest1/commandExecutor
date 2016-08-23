@@ -20,9 +20,19 @@ public class WestSettingPanel extends JScrollPane {
 	private static final long serialVersionUID = 8780480850195055713L;
 	
 	private Dimension dimWest;	//此panel的大小
-	private Logger lggr = Logger.getLogger(WestSettingPanel.class.getName());
-	private static WestSettingPanelInPane panelInPane = new WestSettingPanelInPane();
+	private static Logger lggr; 
+	//private static WestSettingPanelInPane panelInPane = new WestSettingPanelInPane();
+	private static WestSettingPanelInPane panelInPane = WestSettingPanelInPane.createInstance();
+	private static WestSettingPanel staticPanel;	//单例
 	
+	public static WestSettingPanel createInstance(Dimension dimension){
+		if(null == staticPanel){
+			lggr = Logger.getLogger(WestSettingPanel.class.getName());
+			lggr.info("配置Panel尚未创建，在单例模式中创建");
+			staticPanel = new WestSettingPanel(dimension);
+		}
+		return staticPanel;
+	}
 	public WestSettingPanel(Dimension mainFrameBound){
 		super(panelInPane);	//在此处添加这个WestPane中的所有控件
 		lggr.debug("执行super完成，进入 WestSettingPanel 构造方法");
@@ -56,6 +66,14 @@ class WestSettingPanelInPane extends JPanel{
 	private GridLayout gridLayout;	//网格布局
 	private int cmdType;	//命令类型 0-Git 1-redis 2-sql 3-shell
 	private Logger lggr;
+	private static WestSettingPanelInPane staticPane;
+	
+	public static WestSettingPanelInPane createInstance(){
+		if (null == staticPane) {
+			staticPane = new WestSettingPanelInPane();
+		}
+		return staticPane;
+	}
 	
 	public WestSettingPanelInPane(){
 		lggr  = Logger.getLogger(WestSettingPanelInPane.class.getName());
@@ -65,10 +83,14 @@ class WestSettingPanelInPane extends JPanel{
 		setLayout(gridLayout);	
 		cmdType = 0;	//默认设置为 0-Git
 		
-		redisPanel = new RedisSettingPanel();
+	/*	redisPanel = new RedisSettingPanel();
 		gitPanel = new GitSettingPanel();
 		sqlPanel = new SQLSettingPanel();
-		shellpPanel = new ShellSettingPanel();
+		shellpPanel = new ShellSettingPanel();*/
+		redisPanel = RedisSettingPanel.createInstance();
+		gitPanel = GitSettingPanel.createInstance();
+		sqlPanel = SQLSettingPanel.createInstance();
+		shellpPanel = ShellSettingPanel.createInstance();
 		
 		//在这里添加每个grid的内容
 		addRowOfBasicSetting();

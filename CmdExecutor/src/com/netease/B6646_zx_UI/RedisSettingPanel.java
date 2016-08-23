@@ -5,6 +5,14 @@ import javax.swing.JPanel;
 
 public class RedisSettingPanel extends JPanel {
 	private static final long serialVersionUID = 7264528016607705530L;
+	private static RedisSettingPanel staticPanel;
+	
+	public static RedisSettingPanel createInstance(){
+		if (null == staticPanel) {
+			staticPanel = new RedisSettingPanel();
+		}
+		return staticPanel;
+	}
 
 	public RedisSettingPanel(){
 		add(new JButton("Redis"));

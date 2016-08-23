@@ -11,8 +11,17 @@ public class JMainFrame extends JFrame {
 	private static final long serialVersionUID = 318860219327704860L;
 	
 	private static Logger lggr;	//log4j对象
+	
+	private static JMainFrame frame;
+	public static synchronized JMainFrame createInstance(){
+		if(null == frame){
+			lggr = Logger.getLogger(JMainFrame.class.getName());
+			lggr.info("主界面尚未创建，在单例中创建主界面。");
+			frame = new JMainFrame();
+		}
+		return frame;
+	}
 	public JMainFrame(){	
-		lggr = Logger.getLogger(JMainFrame.class.getName());
 		
 		lggr.debug("初始化主窗口配置");	
 		setBounds(10, 10, 900, 600);
@@ -35,7 +44,8 @@ public class JMainFrame extends JFrame {
 	private void setCenterArea(Dimension bound) {
 		// TODO Auto-generated method stub
 		lggr.info("开始初始化MainFrame的Center部分");
-		CenterCmdLinePanel centerPanel = new CenterCmdLinePanel(bound);
+		//CenterCmdLinePanel centerPanel = new CenterCmdLinePanel(bound);
+		CenterCmdLinePanel centerPanel = CenterCmdLinePanel.createInstance(bound);
 		getContentPane().add("Center", centerPanel);
 		lggr.info("初始化MainFrame的Middle部分完成");
 	}
@@ -43,7 +53,8 @@ public class JMainFrame extends JFrame {
 	private void setWestArea(Dimension bound) {
 		// TODO Auto-generated method stub
 		lggr.info("开始初始化MainFrame的West部分");
-		WestSettingPanel westPanel = new WestSettingPanel(bound);
+		//WestSettingPanel westPanel = new WestSettingPanel(bound);
+		WestSettingPanel westPanel = WestSettingPanel.createInstance(bound);
 		getContentPane().add("West", westPanel);
 		lggr.info("初始化MainFrame的West部分完成");
 	}
@@ -52,7 +63,8 @@ public class JMainFrame extends JFrame {
 		// TODO Auto-generated method stub
 		//设置FrameSouth部分，South部分为记录展示框
 		lggr.info("开始初始化MainFrame的South部分");
-		SouthRecordPanel southPanel = new SouthRecordPanel(bound);
+		//SouthRecordPanel southPanel = new SouthRecordPanel(bound);
+		SouthRecordPanel southPanel = SouthRecordPanel.createInstance(bound);
 		getContentPane().add("South", southPanel);
 		lggr.info("初始化MainFrame的South部分完成");
 	}
