@@ -17,9 +17,11 @@ public class SQLSettingPanel extends JPanel {
 	public SQLSettingPanel(){
 		add(new JButton("SQL"));
 		add(new JButton("SQL"));
-		add(new JButton("SQL"));
-		add(new JButton("SQL"));
-		add(new JButton("SQL"));
-		add(new JButton("SQL"));
+
+	}
+	
+	//将xml文件里的配置展示到界面上
+	public void showValue(String xmlPath){
+		
 	}
 }

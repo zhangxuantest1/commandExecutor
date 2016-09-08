@@ -204,22 +204,36 @@ public class XMLEditor {
 	}
 	
 	//获取指定路径下的所有元素，需要保证路径仅有一条
-		public List<Element> getAllElements(String parentPath){
-			String[] str = parentPath.split("-");
-			Element element = getRootElement();
-			for(int i = 1 ; i < str.length ; i++){
-				Element el = element.getChild(str[i]);
-				if (null != el) {
-					element = el;
-				} else {
-					lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
-					return null;
-				}
+	public List<Element> getAllElements(String parentPath){
+		String[] str = parentPath.split("-");
+		Element element = getRootElement();
+		for(int i = 1 ; i < str.length ; i++){
+			Element el = element.getChild(str[i]);
+			if (null != el) {
+				element = el;
+			} else {
+				lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
+				return null;
 			}
-			List<Element> list = element.getChildren();
-			return list;
 		}
+		List<Element> list = element.getChildren();
+		return list;
+	}
+
 	
+	//获取某个路径下元素的值
+	//path 表示parent的路径
+	//index表示第parent中的第index个元素
+	public String getValueByPathandIndex(String parentPath,int index){
+		String value = null;
+		Element parent = getElement(parentPath);
+		lggr.error(parent.getName());
+		List<Element> children = parent.getChildren();
+		Element child = children.get(index);
+		value = child.getValue();
+		lggr.error(String.format("通过路径 %s 和索引 %d 获取到的值为 %s", parentPath,index,value));
+		return value;
+	}
 	/******************************************************/
 	/********************内部private方法*********************/
 	/******************************************************/

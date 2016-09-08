@@ -17,9 +17,10 @@ public class ShellSettingPanel extends JPanel {
 	public ShellSettingPanel(){
 		add(new JButton("Shell"));
 		add(new JButton("Shell"));
-		add(new JButton("Shell"));
-		add(new JButton("Shell"));
-		add(new JButton("Shell"));
-		add(new JButton("Shell"));
+	}
+	
+	//将xml文件里的配置展示到界面上
+	public void showValue(String xmlPath){
+		
 	}
 }

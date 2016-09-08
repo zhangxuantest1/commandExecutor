@@ -40,6 +40,10 @@ public class WestSettingPanel extends JScrollPane {
 		setBackground(Color.LIGHT_GRAY);
 		setPreferredSize(dimWest);
 	}
+	
+	public WestSettingPanelInPane getPanelInPane(){
+		return panelInPane;
+	}
 }
 
 
@@ -77,7 +81,7 @@ class WestSettingPanelInPane extends JPanel{
 	
 	public WestSettingPanelInPane(){
 		lggr  = Logger.getLogger(WestSettingPanelInPane.class.getName());
-		gridLayout = new GridLayout(3,1);	//n行2列
+		gridLayout = new GridLayout(3,1);	//1行3列
 		gridLayout.setVgap(30);
 		gridLayout.setHgap(10);
 		setLayout(gridLayout);	
@@ -96,8 +100,22 @@ class WestSettingPanelInPane extends JPanel{
 		addRowOfBasicSetting();
 		addRowOfDynamicSetting(cmdType);
 	}
+	
+	public JPanel getCurrentPanel(){
+		lggr.debug(String.format("即将返回的cmdType为 %d", cmdType));
+		switch (cmdType) {
+		case 0:
+			return gitPanel;
+		case 1:
+			return redisPanel;
+		case 2:
+			return sqlPanel;
+		default:
+			return shellpPanel;
+		}
+	}
 
-	private void addRowOfDynamicSetting(int cmdType) {
+	public void addRowOfDynamicSetting(int cmdType) {
 		// TODO Auto-generated method stub
 		lggr.info("为WestPanel的动态配置布局");
 		switch (cmdType) {
@@ -119,8 +137,14 @@ class WestSettingPanelInPane extends JPanel{
 			break;
 		}
 		lggr.info("为WestPanel的动态配置布局完成");
+		
+		//必须有这一句，实现对窗口的重绘。否则只有在鼠标滑过时，才会刷新展示的控件
+		repaint();	
 	}
 
+	public void setcmdType(int type){
+		cmdType = type;
+	}
 	private void addRowOfBasicSetting() {
 		// TODO Auto-generated method stub
 		lggr.info("为WestPanel的基础配置布局");

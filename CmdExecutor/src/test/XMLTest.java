@@ -1,5 +1,6 @@
 package test;
 
+import java.beans.XMLDecoder;
 import java.util.List;
 import org.jdom2.Element;
 import org.junit.Test;
@@ -87,6 +88,14 @@ public class XMLTest {
 		for (int i = 0; i < e.size(); i++) {
 			System.out.println(e.get(i).getName().trim());
 		}
+	}
+	
+	@Test
+	public void testgetValueByPathandIndex(){
+		String path = "Setting-UI-Git";
+		int index=1;
+		editor1.getValueByPathandIndex(path,index);
+		
 	}
 	
 	/****************************/

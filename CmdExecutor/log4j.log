@@ -3772,4 +3772,2684 @@ CenterCmdLinePanel尚未创建，在单例中创建。
 当前选中的选项为 Shell_未实现
  [DEBUG][2016/09/06 22:54:5210 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
 当前选中的选项为 Git
+ [INFO ][2016/09/08 22:12:57597][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 22:12:57601][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 22:12:57608][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 22:12:57716][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 22:12:57781][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 22:12:57782][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 22:12:57811][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:126)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 22:12:57839][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 22:12:57839][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 22:12:57896][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 22:12:57900][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 22:12:57925][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 22:12:57925][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 22:12:57926][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:129)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 22:12:57926][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:102)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 22:12:57926][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:105)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 22:12:57927][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:121)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 22:12:57927][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 22:12:57928][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 22:12:57960][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 22:12:57960][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 22:12:57960][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 22:12:57960][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 22:12:57982][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 22:12:57982][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 22:12:57983][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 22:12:57985][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 22:12:57985][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 22:12:57987][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 22:12:57993][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 22:12:57995][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 22:12:57997][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 22:12:57998][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 22:12:57999][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 22:12:57999][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 22:13:01659][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 22:13:02958][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 22:13:04105][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 22:13:05625][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 22:13:06756][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 22:13:07852][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [INFO ][2016/09/08 22:19:28419][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 22:19:28423][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 22:19:28429][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 22:19:28465][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 22:19:28524][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 22:19:28525][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 22:19:28554][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:126)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 22:19:28581][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 22:19:28582][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 22:19:28641][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 22:19:28645][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 22:19:28673][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 22:19:28674][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 22:19:28674][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:129)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 22:19:28675][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:102)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 22:19:28675][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:105)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 22:19:28676][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:121)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 22:19:28676][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 22:19:28677][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 22:19:28699][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 22:19:28699][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 22:19:28700][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 22:19:28701][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 22:19:28720][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 22:19:28720][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 22:19:28721][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 22:19:28722][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 22:19:28723][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 22:19:28725][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 22:19:28728][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 22:19:28730][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 22:19:28734][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 22:19:28736][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 22:19:28736][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 22:19:28736][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 22:21:04950][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [ERROR][2016/09/08 22:21:04950][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:143)]
+Redis_未实现  testRedis1
+ [INFO ][2016/09/08 22:27:06644][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 22:27:06648][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 22:27:06654][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 22:27:06690][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 22:27:06748][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 22:27:06748][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 22:27:06778][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:126)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 22:27:06809][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 22:27:06811][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 22:27:06872][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 22:27:06877][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 22:27:06904][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 22:27:06905][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 22:27:06906][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:129)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 22:27:06906][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:102)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 22:27:06906][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:105)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 22:27:06908][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:121)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 22:27:06908][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 22:27:06911][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 22:27:06936][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 22:27:06936][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 22:27:06937][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 22:27:06937][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 22:27:06962][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 22:27:06962][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 22:27:06963][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 22:27:06964][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 22:27:06965][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 22:27:06967][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 22:27:06971][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 22:27:06974][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 22:27:06982][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 22:27:06988][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 22:27:06988][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 22:27:06989][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:07:54332][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:07:54336][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:07:54343][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:07:54384][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:07:54451][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:07:54452][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:07:54481][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:146)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:07:54513][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:07:54513][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:07:54579][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:07:54583][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:07:54611][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:07:54611][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:07:54612][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:149)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:07:54612][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:07:54612][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:07:54613][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:07:54614][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:07:54615][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:07:54637][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:07:54638][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:07:54638][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:07:54640][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:07:54666][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:07:54667][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:07:54667][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:07:54716][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:07:54717][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:07:54719][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:07:54729][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:07:54731][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:07:54734][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:07:54735][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:07:54736][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:07:54736][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:07:56702][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:07:58471][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:07:59676][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:08:07676][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:08:07680][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:08:07686][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:08:07724][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:08:07776][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:08:07776][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:08:07811][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:146)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:08:07840][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:08:07841][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:08:07896][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:08:07901][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:08:07924][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:08:07925][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:08:07925][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:149)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:08:07926][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:08:07926][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:08:07927][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:08:07927][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:08:07928][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:08:07951][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:08:07952][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:08:07953][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:08:07954][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:08:07973][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:08:07973][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:08:07974][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:08:07975][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:08:07976][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:08:07978][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:08:07982][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:08:07985][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:08:07989][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:08:07990][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:08:07991][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:08:07991][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:08:12532][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:08:42469][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:08:42474][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:08:42479][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:08:42519][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:08:42575][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:08:42575][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:08:42604][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:146)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:08:42634][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:08:42634][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:08:42694][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:08:42701][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:08:42725][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:08:42725][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:08:42726][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:149)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:08:42726][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:08:42726][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:08:42729][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:08:42729][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:08:42731][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:08:42753][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:08:42753][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:08:42753][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:08:42754][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:08:42780][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:08:42781][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:08:42781][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:08:42783][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:08:42784][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:08:42787][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:08:42791][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:08:42797][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:08:42799][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:08:42801][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:08:42801][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:08:42801][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:08:44112][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [INFO ][2016/09/08 23:10:0379 ][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:10:0383 ][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:10:0390 ][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:10:03129][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:10:03189][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:10:03189][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:10:03220][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:146)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:10:03251][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:10:03251][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:10:03311][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:10:03315][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:10:03340][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:10:03340][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:10:03341][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:149)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:10:03341][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:03341][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:10:03343][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:10:03344][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:10:03345][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:10:03368][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:10:03368][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:10:03368][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:10:03369][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:10:03391][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:10:03393][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:10:03394][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:10:03396][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:10:03396][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:10:03399][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:10:03402][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:10:03406][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:10:03410][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:10:03412][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:10:03412][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:10:03413][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:10:05212][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:10:05213][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:05214][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:126)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:10:05214][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:10:14887][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [INFO ][2016/09/08 23:10:14887][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:14888][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:130)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:10:14888][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:10:16644][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [INFO ][2016/09/08 23:10:16645][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:16645][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:134)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:10:16645][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:10:18385][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:10:18386][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:18386][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:10:18387][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:10:2454 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:10:2454 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:2454 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:126)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:10:2455 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:10:28316][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:10:28317][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:28317][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:10:28317][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:10:32623][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:10:32624][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:32624][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:10:32625][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:10:38904][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:10:38905][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:10:38905][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:126)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:10:38905][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:11:1894 ][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:11:1898 ][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:11:18104][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:11:18144][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:11:18199][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:11:18199][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:11:18224][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:146)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:11:18259][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:11:18260][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:11:18320][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:11:18325][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:11:18348][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:11:18349][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:11:18350][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:149)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:11:18350][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:18350][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:11:18352][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:11:18352][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:11:18353][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:11:18378][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:11:18378][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:11:18379][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:11:18379][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:11:18398][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:11:18399][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:11:18399][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:11:18400][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:11:18401][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:11:18403][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:11:18407][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:11:18412][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:11:18414][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:11:18415][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:11:18415][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:11:18416][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:11:19989][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:11:19990][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:19990][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:126)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:11:19990][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:20928][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:11:20929][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:20929][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:11:20930][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:22710][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:11:22711][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:22711][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:126)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:11:22712][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:24186][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [INFO ][2016/09/08 23:11:24186][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:24187][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:130)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:11:24187][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:25800][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [INFO ][2016/09/08 23:11:25801][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:25801][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:134)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:11:25801][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:26684][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:11:26685][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:26685][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:11:26686][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:2833 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:11:2834 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:2834 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:11:2834 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:3136 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:11:3136 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:3136 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:11:3137 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:32312][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:11:32313][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:32313][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:126)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:11:32313][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:33673][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:11:33673][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:33674][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:11:33674][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:40622][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:11:40623][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:40623][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:126)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:11:40623][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:42116][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [INFO ][2016/09/08 23:11:42116][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:42117][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:130)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:11:42117][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:11:52945][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:11:52950][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:11:52955][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:11:52993][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:11:5349 ][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:11:5350 ][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:11:5376 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:146)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:11:53107][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:11:53107][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:11:53164][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:11:53171][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:11:53194][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:11:53194][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:11:53195][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:149)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:11:53195][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:53195][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:11:53196][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:11:53197][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:11:53198][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:11:53226][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:11:53226][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:11:53226][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:11:53227][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:11:53246][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:11:53247][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:11:53247][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:11:53249][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:11:53250][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:11:53253][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:11:53256][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:11:53258][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:11:53260][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:11:53261][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:11:53262][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:11:53262][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:11:5529 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [INFO ][2016/09/08 23:11:5530 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:5530 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:126)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:11:5530 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:55978][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:11:55979][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:55979][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:11:55979][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:11:58980][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [INFO ][2016/09/08 23:11:58981][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:11:58982][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:130)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:11:58982][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:12:00640][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [INFO ][2016/09/08 23:12:00641][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:119)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:12:00641][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:122)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:12:00641][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:138)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:14:47783][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:14:47787][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:14:47794][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:14:47835][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:14:47889][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:14:47889][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:14:47920][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:147)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:14:47950][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:14:47950][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:14:488  ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:14:4814 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:14:4844 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:14:4844 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:14:4845 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:150)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:14:4845 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:14:4846 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:14:4847 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:14:4847 ][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:14:4848 ][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:14:4869 ][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:14:4869 ][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:14:4870 ][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:14:4870 ][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:14:4893 ][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:14:4895 ][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:14:4895 ][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:14:4897 ][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:14:4898 ][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:14:48100][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:14:48105][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:14:48114][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:14:48118][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:14:48124][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:14:48125][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:14:48126][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:14:49704][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [ERROR][2016/09/08 23:14:49705][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:14:49705][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:14:49706][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:14:49706][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:14:52462][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [ERROR][2016/09/08 23:14:52463][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:14:52463][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:14:52463][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:14:52464][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:14:54486][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [ERROR][2016/09/08 23:14:54487][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:14:54487][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:14:54487][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:14:54488][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:14:56422][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [ERROR][2016/09/08 23:14:56423][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:14:56423][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:14:56424][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:14:56424][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:16:14984][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:16:14987][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:16:14994][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:16:1531 ][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:16:1592 ][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:16:1592 ][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:16:15119][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:147)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:16:15150][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:16:15150][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:16:15210][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:16:15214][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:16:15242][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:16:15242][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:16:15243][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:150)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:16:15243][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:16:15243][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:16:15244][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:16:15244][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:16:15245][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:16:15269][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:16:15270][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:16:15270][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:16:15270][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:16:15289][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:16:15290][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:16:15291][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:16:15292][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:16:15293][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:16:15295][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:16:15299][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:16:15302][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:16:15303][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:16:15305][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:16:15305][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:16:15306][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:16:17821][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:16:17822][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:16:17822][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:16:17823][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:16:17823][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:16:20938][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:16:20939][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:16:20939][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:16:20939][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:16:20940][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:16:22485][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:16:22485][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:16:22486][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:16:22486][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:16:22486][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:16:23998][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:16:23999][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:16:23999][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:16:23999][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:16:23999][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:16:26981][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:16:26982][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:16:26982][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:16:26982][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:16:26983][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:16:29784][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:16:29785][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:16:29785][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:16:29785][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:16:29785][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:17:029  ][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:17:0213 ][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:17:0219 ][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:17:0259 ][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:17:02122][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:17:02123][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:17:02150][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:147)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:17:02180][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:17:02180][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:17:02238][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:17:02241][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:17:02269][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:17:02269][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:17:02270][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:150)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:17:02270][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:02270][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:17:02271][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:17:02271][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:17:02273][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:17:02294][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:17:02295][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:17:02297][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:17:02297][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:17:02320][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:17:02321][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:17:02321][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:17:02322][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:17:02323][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:17:02325][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:17:02331][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:17:02334][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:17:02336][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:17:02338][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:17:02339][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:17:02339][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:17:04196][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:17:04197][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:17:04398][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:04398][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:17:04399][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:17:0680 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:17:0681 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:17:06281][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:06281][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:17:06282][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:17:08748][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:17:08749][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:17:08950][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:08950][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:17:08950][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:17:11486][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:17:11487][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:17:11688][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:11688][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:17:11689][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:17:13380][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:17:13381][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:17:13581][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:13581][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:17:13581][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:17:15334][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:17:15335][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:17:15535][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:15535][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:17:15536][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:17:16784][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:17:16785][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:17:16986][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:16986][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:17:16986][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:17:43826][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:17:43830][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:17:43836][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:17:43874][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:17:43930][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:17:43931][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:17:43958][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:147)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:17:43989][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:17:43989][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:17:4445 ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:17:4449 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:17:4475 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:17:4475 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:17:4476 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:150)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:17:4477 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:4477 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:17:4478 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:17:4478 ][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:17:4479 ][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:17:44106][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:17:44106][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:17:44107][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:17:44107][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:17:44125][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:17:44126][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:17:44126][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:17:44128][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:17:44128][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:17:44130][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:17:44133][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:17:44138][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:17:44140][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:17:44142][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:17:44142][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:17:44142][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:17:45874][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:17:45875][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:17:4676 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:4676 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:17:4676 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:17:47250][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:17:47251][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:17:47451][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:47451][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:17:47452][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:17:56413][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:17:56418][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:17:56425][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:17:56462][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:17:56523][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:17:56523][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:17:56555][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:147)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:17:56586][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:17:56586][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:17:56641][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:17:56646][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:17:56671][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:17:56672][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:17:56672][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:150)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:17:56673][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:56673][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:17:56674][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:17:56674][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:17:56675][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:17:56695][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:17:56696][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:17:56696][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:17:56696][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:17:56718][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:17:56719][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:17:56719][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:17:56721][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:17:56721][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:17:56723][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:17:56726][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:17:56728][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:17:56729][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:17:56731][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:17:56731][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:17:56732][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:17:58108][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:17:58109][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:17:58309][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:17:58309][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:17:58310][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:02291][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:02292][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:02492][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:02492][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:02492][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:04414][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:18:04415][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:18:04615][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:04615][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:18:04616][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:07406][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:18:07407][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:07607][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:07607][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:18:07608][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:09184][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:18:09185][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:18:09386][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:09386][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:18:09386][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:1270 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:1271 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:12271][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:12271][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:12271][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:13672][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:18:13673][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:18:13873][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:13873][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:18:13873][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:1534 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:18:1535 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:18:15235][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:15235][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:18:15236][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:16828][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:18:16829][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:18:1729 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:1729 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:18:1729 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:20942][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:20943][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:18:21143][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:21143][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:21144][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:22284][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:18:22285][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:18:22485][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:22485][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:18:22486][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:26212][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:26213][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:26413][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:26413][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:26414][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:18:36373][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:18:36378][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:18:36385][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:18:36427][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:18:36481][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:18:36481][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:18:36515][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:147)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:18:36545][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:18:36546][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:18:36599][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:18:36603][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:18:36628][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:18:36628][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:18:36629][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:150)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:18:36629][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:36629][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:36630][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:18:36630][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:18:36632][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:18:36653][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:18:36653][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:18:36653][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:18:36653][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:18:36670][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:18:36671][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:18:36671][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:18:36675][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:18:36676][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:18:36678][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:18:36682][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:18:36685][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:18:36687][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:18:36688][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:18:36688][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:18:36689][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:18:38324][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:38325][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:18:38526][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:38526][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:38526][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:40476][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:18:40477][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:18:40678][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:40678][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:18:40678][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:4296 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:4297 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:42298][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:42298][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:42299][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:43410][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:18:43411][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:18:43611][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:43611][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:18:43612][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:45466][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:18:45467][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:45667][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:45667][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:18:45668][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:46878][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:46879][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:4779 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:4779 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:4779 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:48904][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:18:48904][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:18:49105][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:49105][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:18:49106][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:50605][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:18:50606][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:50806][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:50806][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:18:50806][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:52106][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:18:52107][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:18:52307][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:52307][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:18:52307][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:52992][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:52993][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:18:53194][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:53194][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:53194][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:54742][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:18:54743][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:18:54943][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:54943][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:18:54944][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:57330][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:18:57330][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:18:57531][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:57531][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:18:57531][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:18:58624][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:18:58625][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:18:58825][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:18:58825][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:18:58825][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:20:07590][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:20:07594][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:20:07599][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:20:07639][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:20:07696][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:20:07697][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:20:07728][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:148)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:20:07764][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:20:07765][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:20:07824][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:20:07828][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:20:07853][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:20:07854][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:20:07855][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:151)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:20:07855][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:07855][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:20:07857][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:20:07857][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:20:07859][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:20:07880][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:20:07880][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:20:07881][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:20:07881][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:20:07904][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:20:07904][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:20:07905][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:20:07906][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:20:07907][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:20:07909][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:20:07913][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:20:07915][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:20:07918][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:20:07920][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:20:07921][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:20:07921][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:20:09528][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:20:09529][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:20:09529][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:09530][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:20:09530][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:20:11971][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:20:11971][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:20:11971][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:11972][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:20:11972][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:20:13158][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:20:13159][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:20:13159][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:13159][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:20:13160][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:20:14322][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:20:14323][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:20:14323][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:14323][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:20:14324][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:20:38166][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:20:38171][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:20:38177][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:20:38216][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:20:38276][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:20:38277][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:20:38305][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:148)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:20:38338][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:20:38338][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:20:38395][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:20:38401][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:20:38424][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:20:38424][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:20:38425][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:151)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:20:38425][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:38425][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:20:38426][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:20:38426][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:20:38428][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:20:38451][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:20:38451][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:20:38452][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:20:38452][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:20:38470][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:20:38471][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:20:38472][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:20:38474][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:20:38474][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:20:38477][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:20:38482][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:20:38485][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:20:38488][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:20:38489][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:20:38489][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:20:38490][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:20:40183][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:20:40184][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:20:40184][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:40185][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:20:40185][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:20:41322][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:20:41323][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:20:41323][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:41324][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:20:41324][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:20:42256][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:20:42257][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:20:42257][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:42257][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:20:42258][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:20:54575][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:20:54579][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:20:54585][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:20:54629][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:20:54690][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:20:54691][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:20:54731][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:148)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:20:54769][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:20:54770][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:20:54833][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:20:54838][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:20:54866][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:20:54866][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:20:54867][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:151)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:20:54867][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:54868][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:20:54869][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:20:54869][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:20:54870][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:20:54969][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:20:54969][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:20:54969][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:20:54970][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:20:54987][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:20:54987][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:20:54987][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:20:54989][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:20:54989][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:20:54992][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:20:54994][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:20:54996][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:20:54998][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:20:54999][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:20:54999][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:20:54999][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:20:56394][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:20:56395][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:20:56395][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:56396][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:20:56396][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:20:588  ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:20:589  ][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:20:589  ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:589  ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:20:5810 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:20:597  ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:20:597  ][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:20:597  ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:20:598  ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:20:598  ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:21:00486][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:21:00487][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:21:00487][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:21:00487][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:21:00488][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:21:01652][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:21:01653][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:21:01653][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:21:01653][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:21:01654][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:21:03235][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:21:03235][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:21:03236][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:21:03236][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:21:03236][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:21:04470][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:21:04471][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:21:04471][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:21:04471][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:21:04472][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:21:06449][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:21:06449][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:21:06450][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:21:06450][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:21:06450][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:21:07766][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:21:07766][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:21:07767][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:21:07767][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:21:07767][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:21:09282][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:21:09283][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:21:09283][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:21:09283][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:21:09283][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:21:10176][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:21:10176][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:21:10177][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:21:10177][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:21:10177][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:22:44550][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:22:44554][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:22:44561][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:22:44598][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:22:44662][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:22:44662][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:22:44690][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:150)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:22:44720][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:22:44721][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:22:44778][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:22:44784][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:22:44811][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:22:44811][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:22:44812][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:153)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:22:44812][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:44813][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:22:44814][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:22:44814][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:22:44817][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:22:44840][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:22:44840][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:22:44840][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:22:44841][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:22:44863][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:22:44864][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:22:44864][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:22:44867][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:22:44868][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:22:44870][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:22:44873][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:22:44876][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:22:44879][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:22:44880][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:22:44881][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:22:44881][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:22:46421][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:22:46421][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:22:46422][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:46422][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:22:46422][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:22:47446][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:22:47447][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:22:47448][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:47448][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:22:47448][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:22:48514][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:22:48515][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:22:48515][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:48515][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:22:48515][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:22:49398][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Sql_未实现
+ [DEBUG][2016/09/08 23:22:49399][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:22:49399][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:49399][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:131)]
+选择的为数据库登录，将展现出SQL的登录界面
+ [INFO ][2016/09/08 23:22:49399][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:22:50254][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:22:50255][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 2
+ [INFO ][2016/09/08 23:22:50255][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:50255][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:22:50256][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:22:51167][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Shell_未实现
+ [DEBUG][2016/09/08 23:22:51167][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:22:51167][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:51168][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:135)]
+选择的为shell登录，将展现出shell的登录界面
+ [INFO ][2016/09/08 23:22:51168][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:22:52382][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Redis_未实现
+ [DEBUG][2016/09/08 23:22:52383][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 3
+ [INFO ][2016/09/08 23:22:52383][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:52383][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:127)]
+选择的为redis登录，将展现出redis的登录界面
+ [INFO ][2016/09/08 23:22:52383][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:22:5382 ][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:22:5383 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 1
+ [INFO ][2016/09/08 23:22:5383 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:5383 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:22:5383 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [DEBUG][2016/09/08 23:22:53424][com.netease.B6646_zx_UI.StaticPanel$1.actionPerformed(StaticPanel.java:133)]
+当前选中的选项为 Git
+ [DEBUG][2016/09/08 23:22:53424][com.netease.B6646_zx_UI.WestSettingPanelInPane.getCurrentPanel(WestSettingPanel.java:105)]
+即将返回的cmdType为 0
+ [INFO ][2016/09/08 23:22:53424][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:22:53425][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:22:53425][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:30:30799][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:16)]
+--------------------------------------------------
+ [INFO ][2016/09/08 23:30:30805][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:17)]
+创建并显示主界面
+ [INFO ][2016/09/08 23:30:30811][com.netease.B6646_zx_UI.JMainFrame.createInstance(JMainFrame.java:19)]
+主界面尚未创建，在单例中创建主界面。
+ [DEBUG][2016/09/08 23:30:30850][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:26)]
+初始化主窗口配置
+ [INFO ][2016/09/08 23:30:30904][com.netease.B6646_zx_UI.JMainFrame.<init>(JMainFrame.java:35)]
+主窗体的大小为(宽度,高度):(900,600)
+ [INFO ][2016/09/08 23:30:30904][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:55)]
+开始初始化MainFrame的West部分
+ [INFO ][2016/09/08 23:30:30933][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:150)]
+为WestPanel的基础配置布局
+ [DEBUG][2016/09/08 23:30:30962][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:30:30962][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:30:3131 ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [INFO ][2016/09/08 23:30:3134 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:100)]
+共加载了4条连接类型数据。
+ [DEBUG][2016/09/08 23:30:3162 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:120)]
+记录的连接类型为: Git
+ [DEBUG][2016/09/08 23:30:3162 ][com.netease.B6646_zx_UI.StaticPanel.loadAndShowStaticArea(StaticPanel.java:121)]
+记录的连接描述为: testGitDesc
+ [INFO ][2016/09/08 23:30:3163 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfBasicSetting(WestSettingPanel.java:153)]
+为WestPanel的基础配置布局完成
+ [INFO ][2016/09/08 23:30:3163 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:120)]
+为WestPanel的动态配置布局
+ [INFO ][2016/09/08 23:30:3163 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:123)]
+选择的为git登录，将展现出git的登录界面
+ [INFO ][2016/09/08 23:30:3164 ][com.netease.B6646_zx_UI.WestSettingPanelInPane.addRowOfDynamicSetting(WestSettingPanel.java:139)]
+为WestPanel的动态配置布局完成
+ [INFO ][2016/09/08 23:30:3164 ][com.netease.B6646_zx_UI.WestSettingPanel.createInstance(WestSettingPanel.java:31)]
+配置Panel尚未创建，在单例模式中创建
+ [DEBUG][2016/09/08 23:30:3165 ][com.netease.B6646_zx_UI.WestSettingPanel.<init>(WestSettingPanel.java:38)]
+执行super完成，进入 WestSettingPanel 构造方法
+ [INFO ][2016/09/08 23:30:3188 ][com.netease.B6646_zx_UI.JMainFrame.setWestArea(JMainFrame.java:59)]
+初始化MainFrame的West部分完成
+ [INFO ][2016/09/08 23:30:3188 ][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:65)]
+开始初始化MainFrame的South部分
+ [INFO ][2016/09/08 23:30:3189 ][com.netease.B6646_zx_UI.SouthRecordPanel.createInstance(SouthRecordPanel.java:22)]
+SouthRecordPanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:30:3189 ][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:29)]
+开始创建South部分的Panel
+ [INFO ][2016/09/08 23:30:31116][com.netease.B6646_zx_UI.SouthRecordPanel.<init>(SouthRecordPanel.java:42)]
+完成South部分的Panel
+ [INFO ][2016/09/08 23:30:31116][com.netease.B6646_zx_UI.JMainFrame.setSouthArea(JMainFrame.java:69)]
+初始化MainFrame的South部分完成
+ [INFO ][2016/09/08 23:30:31117][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:46)]
+开始初始化MainFrame的Center部分
+ [INFO ][2016/09/08 23:30:31118][com.netease.B6646_zx_UI.CenterCmdLinePanel.createInstance(CenterCmdLinePanel.java:30)]
+CenterCmdLinePanel尚未创建，在单例中创建。
+ [INFO ][2016/09/08 23:30:31119][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:37)]
+进入CenterCmdLinePanel的构造函数，创建中间部分开始。
+ [DEBUG][2016/09/08 23:30:31121][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:50)]
+命令框整体的bound为(675.000000,400.000000)
+ [DEBUG][2016/09/08 23:30:31127][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:54)]
+命令框West部分的bound为(133.000000,320.000000)
+ [DEBUG][2016/09/08 23:30:31129][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:58)]
+命令框East部分的bound为(100.000000,320.000000)
+ [INFO ][2016/09/08 23:30:31131][com.netease.B6646_zx_UI.CenterCmdLinePanel.<init>(CenterCmdLinePanel.java:71)]
+离开CenterCmdLinePanel的构造函数，创建中间部分结束。
+ [INFO ][2016/09/08 23:30:31133][com.netease.B6646_zx_UI.JMainFrame.setCenterArea(JMainFrame.java:50)]
+初始化MainFrame的Middle部分完成
+ [INFO ][2016/09/08 23:30:31133][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:20)]
+主界面创建成功
+ [INFO ][2016/09/08 23:30:31133][com.netease.B6646_zx_UI.ShowFrame$1.run(ShowFrame.java:21)]
+--------------------------------------------------
+ [DEBUG][2016/09/08 23:41:26302][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/08 23:41:26306][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:41:26358][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [DEBUG][2016/09/08 23:41:26359][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:41:26359][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:41:26367][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [DEBUG][2016/09/08 23:41:26376][com.netease.B6646_zx_Function.XMLEditor.getName(XMLEditor.java:198)]
+即将获取路径 Git 下的第 3 个元素的名字(从0算起)。
+ [DEBUG][2016/09/08 23:41:26377][com.netease.B6646_zx_Function.XMLEditor.getName(XMLEditor.java:202)]
+元素的名字为 a1111
+ [DEBUG][2016/09/08 23:43:31507][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/08 23:43:31511][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:43:31555][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [DEBUG][2016/09/08 23:43:31556][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:253)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/08 23:43:31556][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:235)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/08 23:43:31564][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:246)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:03:26230][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:273)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:03:26234][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:255)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:03:26283][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:266)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:03:26284][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:273)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:03:26284][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:255)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:03:26318][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:266)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:04:03380][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:04:03384][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:04:03430][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:04:03430][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:04:03430][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:04:03439][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:04:15633][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:04:15637][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:04:15681][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:04:15682][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:04:15682][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:04:15692][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:04:15694][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:228)]
+111111111112222
+ [DEBUG][2016/09/09 00:04:24332][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:275)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:04:24336][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:257)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:04:24381][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:268)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:04:24382][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:275)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:04:24382][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:257)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:04:24391][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:268)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:04:24393][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:228)]
+111111111112222
+ [ERROR][2016/09/09 00:04:24393][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:232)]
+111111111112222
+ [DEBUG][2016/09/09 00:04:39220][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:275)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:04:39224][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:257)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:04:39268][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:268)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:04:39269][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:275)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:04:39269][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:257)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:04:39277][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:268)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:04:39279][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:231)]
+111111111112222
+ [DEBUG][2016/09/09 00:05:26406][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:275)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:05:26410][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:257)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:05:26454][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:268)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:05:26454][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:275)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:05:26454][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:257)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:05:26462][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:268)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:05:26464][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:231)]
+111111111112222
+ [ERROR][2016/09/09 00:05:26465][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:236)]
+111111111112222
+ [ERROR][2016/09/09 00:05:26471][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:242)]
+通过路径 UI-Git 和索引 1 获取到的值为 
+		
+		
+	
+ [DEBUG][2016/09/09 00:06:01406][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:06:01409][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:06:01455][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:06:01456][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:06:01456][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:06:01464][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:06:01469][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:240)]
+
+		
+		
+	
+ [ERROR][2016/09/09 00:06:01470][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:241)]
+通过路径 UI-Git 和索引 1 获取到的值为 
+		
+		
+	
+ [DEBUG][2016/09/09 00:06:57447][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:06:57451][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:06:57564][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:06:57565][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:06:57565][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:06:57573][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:06:57579][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:240)]
+
+		
+		
+			
+			D:\tmp\Svc.xml
+			
+			
+			
+				
+					setURI
+					setDirectory
+				
+				
+					setDirectory
+				
+				
+					setMessage
+				
+				
+					addFilePattern
+				
+				
+					addFilePattern
+				
+					
+			
+			
+		
+	
+ [ERROR][2016/09/09 00:06:57580][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:241)]
+通过路径 UI-Git 和索引 1 获取到的值为 
+		
+		
+			
+			D:\tmp\Svc.xml
+			
+			
+			
+				
+					setURI
+					setDirectory
+				
+				
+					setDirectory
+				
+				
+					setMessage
+				
+				
+					addFilePattern
+				
+				
+					addFilePattern
+				
+					
+			
+			
+		
+	
+ [DEBUG][2016/09/09 00:10:54973][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:10:54977][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:10:5530 ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:10:5530 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:10:5530 ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:10:5538 ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:10:5544 ][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:240)]
+
+		
+		
+	
+ [DEBUG][2016/09/09 00:13:35770][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:13:35773][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:13:35817][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:13:35818][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:13:35818][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:13:35826][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:13:35831][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:240)]
+Function
+ [DEBUG][2016/09/09 00:14:36837][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:14:36841][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:14:36887][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:14:36887][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:274)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:14:36887][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:256)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:14:36895][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:267)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:14:36901][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:240)]
+Function
+ [DEBUG][2016/09/09 00:15:19386][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:268)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:15:19391][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:250)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:15:19436][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:261)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:15:19437][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:268)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:15:19437][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:250)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:15:19445][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:261)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:15:19452][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:234)]
+Function
+ [DEBUG][2016/09/09 00:15:35186][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:267)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:15:35190][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:249)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:15:35234][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:260)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:15:35235][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:267)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:15:35235][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:249)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:15:35242][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:260)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:15:35256][com.netease.B6646_zx_Function.XMLEditor.getElement(XMLEditor.java:304)]
+节点 Git 不存在，请确认。
+ [DEBUG][2016/09/09 00:16:49675][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:268)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:16:49678][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:250)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:16:49722][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:261)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:16:49723][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:268)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:16:49723][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:250)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:16:49731][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:261)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:16:49737][com.netease.B6646_zx_Function.XMLEditor.getElement(XMLEditor.java:305)]
+节点 Git 不存在，请确认。
+ [DEBUG][2016/09/09 00:17:52141][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:268)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:17:52144][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:250)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:17:52188][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:261)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:17:52189][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:268)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:17:52189][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:250)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:17:52196][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:261)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:17:52203][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:230)]
+Git
+ [ERROR][2016/09/09 00:17:52204][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:234)]
+desc
+ [DEBUG][2016/09/09 00:18:36304][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:267)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:18:36309][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:249)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:18:36352][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:260)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:18:36352][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:267)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:18:36353][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:249)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:18:36364][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:260)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:18:36372][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:230)]
+Git
+ [ERROR][2016/09/09 00:18:36373][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:234)]
+通过路径 Setting-UI-Git 和索引 1 获取到的值为 
+				
+				
+			
+ [DEBUG][2016/09/09 00:18:49961][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:267)]
+file D:\temp\Svc.xml exists.
+ [INFO ][2016/09/09 00:18:49965][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:249)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:18:509  ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:260)]
+成功加载xml文件
+ [DEBUG][2016/09/09 00:18:5010 ][com.netease.B6646_zx_Function.XMLEditor.fileExists(XMLEditor.java:267)]
+file D:\temp\Config.xml exists.
+ [INFO ][2016/09/09 00:18:5010 ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:249)]
+xml文件已存在，无需重新创建。
+ [INFO ][2016/09/09 00:18:5017 ][com.netease.B6646_zx_Function.XMLEditor.loadXml(XMLEditor.java:260)]
+成功加载xml文件
+ [ERROR][2016/09/09 00:18:5024 ][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:230)]
+Git
+ [ERROR][2016/09/09 00:18:5026 ][com.netease.B6646_zx_Function.XMLEditor.getValueByPathandIndex(XMLEditor.java:234)]
+通过路径 Setting-UI-Git 和索引 1 获取到的值为 
+				D:\temp\test2
+				https://github.com/zhangxuantest1/first_test.git
+			
  

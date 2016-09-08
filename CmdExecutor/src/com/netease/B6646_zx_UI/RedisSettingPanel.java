@@ -17,9 +17,10 @@ public class RedisSettingPanel extends JPanel {
 	public RedisSettingPanel(){
 		add(new JButton("Redis"));
 		add(new JButton("Redis"));
-		add(new JButton("Redis"));
-		add(new JButton("Redis"));
-		add(new JButton("Redis"));
-		add(new JButton("Redis"));
+	}
+	
+	//将xml文件里的配置展示到界面上
+	public void showValue(String xmlPath){
+		
 	}
 }

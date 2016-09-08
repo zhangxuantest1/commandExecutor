@@ -138,9 +138,41 @@ public class StaticPanel extends JPanel{
 					cmboxLoginDescBox.addItem(list.get(i).getAttributeValue("name"));
 				}	
 				//修改显示的类型(Git/Redis/Shell/Sql)
-				
+				connType = strSelected;	
+				connDesc = list.get(0).getAttributeValue("name");
+				changeDynmDisplay(connType,connDesc,index);
 			}
 		});
+	}
+
+	protected void changeDynmDisplay(String connType, String connDesc, int type) {
+		// TODO Auto-generated method stub
+		WestSettingPanel westPanel = WestSettingPanel.createInstance(new Dimension());
+		WestSettingPanelInPane pane = westPanel.getPanelInPane();
+		pane.remove(pane.getCurrentPanel());
+		pane.addRowOfDynamicSetting(type);
+		pane.setcmdType(type);
+		
+		String xmlPath = connType + "-" + connDesc;	//需要读取的xml文件路径
+		switch (connType) {
+		case "Git":
+			GitSettingPanel gitPanel = GitSettingPanel.createInstance();
+			gitPanel.showValue(xmlPath);
+			break;
+		case "Redis":
+			RedisSettingPanel redisPanel = RedisSettingPanel.createInstance();
+			redisPanel.showValue(xmlPath);
+			break;
+		case "Sql":
+			SQLSettingPanel sqlPanel = SQLSettingPanel.createInstance();
+			sqlPanel.showValue(xmlPath);
+			break;
+		default:	//shell
+			ShellSettingPanel shellPanel = ShellSettingPanel.createInstance();
+			shellPanel.showValue(xmlPath);
+			break;
+		}
+		
 	}
 
 	private void addRowOfConnBtn() {
