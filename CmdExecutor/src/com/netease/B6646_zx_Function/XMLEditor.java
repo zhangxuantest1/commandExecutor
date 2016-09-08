@@ -174,6 +174,52 @@ public class XMLEditor {
 		saveXML();
 	}
 	
+	//获取指定路径下的制定名字的元素，需要保证路径仅有一条
+	public List<Element> getElementsByName(String parentPath,String name){
+		String[] str = parentPath.split("-");
+		Element element = getRootElement();
+		for(int i = 1 ; i < str.length ; i++){
+			Element el = element.getChild(str[i]);
+			if (null != el) {
+				element = el;
+			} else {
+				lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
+				return null;
+			}
+		}
+		List<Element> list = element.getChildren(name);
+		return list;
+	}
+	
+	//获取指定目录下的第index个元素的Name
+	public String getName(String path, int index){
+		
+		Element parent = getElement(path);
+		lggr.debug(String.format("即将获取路径 %s 下的第 %d 个元素的名字(从0算起)。", 
+			parent.getName(),index));
+		List<Element> elements = parent.getChildren();
+		Element element = elements.get(index);
+		lggr.debug(String.format("元素的名字为 %s", element.getName()));
+		return element.getName();
+	}
+	
+	//获取指定路径下的所有元素，需要保证路径仅有一条
+		public List<Element> getAllElements(String parentPath){
+			String[] str = parentPath.split("-");
+			Element element = getRootElement();
+			for(int i = 1 ; i < str.length ; i++){
+				Element el = element.getChild(str[i]);
+				if (null != el) {
+					element = el;
+				} else {
+					lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
+					return null;
+				}
+			}
+			List<Element> list = element.getChildren();
+			return list;
+		}
+	
 	/******************************************************/
 	/********************内部private方法*********************/
 	/******************************************************/
@@ -211,18 +257,7 @@ public class XMLEditor {
 		return false;
 	}
 	
-	//获取指定目录下的第index个元素的Name
-	public String getName(String path, int index){
-		
-		Element parent = getElement(path);
-		lggr.debug(String.format("即将获取路径 %s 下的第 %d 个元素的名字(从0算起)。", 
-				parent.getName(),index));
-		List<Element> elements = parent.getChildren();
-		Element element = elements.get(index);
-		lggr.debug(String.format("元素的名字为 %s", element.getName()));
-		return element.getName();
-		
-	}
+	
 	
 	//储存xml文件
 	private void saveXML(){
@@ -257,42 +292,7 @@ public class XMLEditor {
 			}
 		}
 		return element;
-	}
-	
-	//获取指定路径下的所有元素，需要保证路径仅有一条
-	public List<Element> getAllElements(String parentPath){
-		String[] str = parentPath.split("-");
-		Element element = getRootElement();
-		for(int i = 1 ; i < str.length ; i++){
-			Element el = element.getChild(str[i]);
-			if (null != el) {
-				element = el;
-			} else {
-				lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
-				return null;
-			}
-		}
-		List<Element> list = element.getChildren();
-		return list;
-	}
-	
-	//获取指定路径下的制定名字的元素，需要保证路径仅有一条
-	public List<Element> getElementsByName(String parentPath,String name){
-		String[] str = parentPath.split("-");
-		Element element = getRootElement();
-		for(int i = 1 ; i < str.length ; i++){
-			Element el = element.getChild(str[i]);
-			if (null != el) {
-				element = el;
-			} else {
-				lggr.error(String.format("节点 %s 不存在，请确认。", str[i]));
-				return null;
-			}
-		}
-		List<Element> list = element.getChildren(name);
-		return list;
-	}
-	
+	}	
 	
 	//在指定目录下创建xml文件
 	private void createNewXMLFile() {
